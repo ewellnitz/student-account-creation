@@ -1,12 +1,25 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This project consists of two Azure functions that allow you to interact with CampusNexus Student APIs for student account creation.
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+1.  Clone the repository
+2.  Open **Student.AccountCreation.sln** in Visual Studio
+3.  Duplicate the contents of **sample.local.settings.json** into a file named **local.settings.json** and set the following settings:
+- **CampusNexusUrl** - The host url for your CampusNexus Student instance
+- **User** - The username associated with your service account
+- **Password** - The password associated with your service account
+```
+{
+  "IsEncrypted": false,
+  "CampusNexusUrl": "https://hostName.campusnexus.cloud/",
+  "User": "user@hostName.campusnexus.cloud",
+  "Password": "***",
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  }
+}
+```
 
 # Build and Test
 TODO: Describe and show how to build your code and run the tests. 
