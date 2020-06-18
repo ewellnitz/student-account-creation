@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "CampusNexusUrl": "https://hostName.campusnexus.cloud/",
+  "User": "user@hostName.campusnexus.cloud",
+  "Password": "***",
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  }
+}
