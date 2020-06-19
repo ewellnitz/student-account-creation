@@ -22,8 +22,17 @@ This project consists of two Azure functions that allow you to interact with Cam
 ```
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
+1.  Run the project, you should see in the console window the URLs associated with the function endpoints:
+```
+GetStudents: [GET] http://localhost:7071/api/GetStudents
+UpdateEmail: [POST] http://localhost:7071/api/UpdateEmail
+```
+# Deploy to Azure
+1.  Right-click on the **Student.AccountCreation** project
+2.  Select **Publish...**
+3.  Choose **Azure Consumption Plan** and either select an existing plan or create a new one.
+4.  Choose the settings for the **App Service** and select **Create**
+5.  
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
 
