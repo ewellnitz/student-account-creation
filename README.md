@@ -3,6 +3,9 @@ This project consists of two Azure functions that allow you to interact with Cam
 
 # Getting Started
 1.  Clone the repository
+```
+git clone https://github.com/ewellnitz/student-account-creation.git
+```
 2.  Open **Student.AccountCreation.sln** in Visual Studio
 3.  Duplicate the contents of **sample.local.settings.json** into a file named **local.settings.json** and set the following settings:
 - **CampusNexusUrl** - The host url for your CampusNexus Student instance
