@@ -34,6 +34,7 @@ UpdateEmail: [POST] http://localhost:7071/api/UpdateEmail
 	"email": "string"
 }
 ```
+2.  You can use the [Postman collection](https://github.com/ewellnitz/student-account-creation/blob/master/postman-collection/Student%20Account%20Creation.postman_collection.json) that is part of this repo to test the APIs
 # Deploy to Azure
 1.  Right-click on the **Student.AccountCreation** project
 2.  Select **Publish...**
