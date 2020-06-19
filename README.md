@@ -29,6 +29,10 @@ git clone https://github.com/ewellnitz/student-account-creation.git
 ```
 GetStudents: [GET] http://localhost:7071/api/GetStudents
 UpdateEmail: [POST] http://localhost:7071/api/UpdateEmail
+{
+	"id": "0",
+	"email": "string"
+}
 ```
 # Deploy to Azure
 1.  Right-click on the **Student.AccountCreation** project
