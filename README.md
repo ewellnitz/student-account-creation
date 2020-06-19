@@ -31,12 +31,8 @@ UpdateEmail: [POST] http://localhost:7071/api/UpdateEmail
 1.  Right-click on the **Student.AccountCreation** project
 2.  Select **Publish...**
 3.  Choose **Azure Consumption Plan** and either select an existing plan or create a new one.
-4.  Choose the settings for the **App Service** and select **Create**
-5.  
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+4.  Choose the settings for the **App Service** and select **Create** and wait for the solution to deploy.
+5.  Click the **Edit Azure App Service settings** and add settings/values for the following:
+- **CampusNexusUrl** - The host url for your CampusNexus Student instance
+- **User** - The username associated with your service account
+- **Password** - The password associated with your service account
